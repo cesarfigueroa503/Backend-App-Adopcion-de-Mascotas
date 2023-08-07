@@ -1,0 +1,12 @@
+from peewee import  CharField, FloatField, IntegerField, ForeignKeyField, AutoField
+from modelos.Usuario import Usuario
+
+from utils.ManagerDB import BaseModel
+
+class Direccion(BaseModel):
+    Id_direccion = AutoField(primary_key=True)
+    ciudad = CharField(max_length=100)
+    Departamento = CharField(max_length=100)
+    avenida = CharField(max_length=100)
+    
+    id_usuario = ForeignKeyField(Usuario, backref='direcciones', null=False,  unique=True)

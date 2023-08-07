@@ -1,0 +1,117 @@
+@media(min-width : 600px){
+    #body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #principal{
+        height: 100vh;
+        width: 100vw;
+        background: linear-gradient(blueviolet, #f7750bce);
+        display: flex;
+    }
+
+    #categorias{
+        width: 80%;
+        height: 90%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10%;
+        padding: 7%;
+    }
+
+    #categoria{
+        border-radius: 20px;
+        text-align: center;
+        box-shadow: 7px 7px 12px 0 rgba(20, 20, 20, 0.3);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: xxx-large;
+        color: beige;
+        background-color: #f9c11a73;
+    }
+
+    #categoria:hover{
+        background-color: rgba(156, 96, 212, 0.87);
+    }
+
+    #texto{
+        font-size: x-large;
+        padding: 5%;
+    }
+
+    #saludo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: url(../images/background3.jpg);
+        background-size: cover;
+        padding: 10%;
+        border-bottom-right-radius: 100px;
+        border-top-right-radius: 100px;
+    }
+
+    #imagen{
+        width: 45%;
+    }
+}
+
+@media(max-width : 599px){
+    #body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #principal{
+        height: 100vh;
+        width: 100vw;
+        background: linear-gradient(blueviolet, #f7750bce);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #categorias{
+        width: 80%;
+        height: 80%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10%;
+        padding: 7%;
+    }
+
+    #categoria{
+        border-radius: 20px;
+        text-align: center;
+        box-shadow: 7px 7px 12px 0 rgba(20, 20, 20, 0.3);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: xxx-large;
+        color: beige;
+        background-color: #d3a41873;
+    }
+
+    #categoria:hover{
+        background-color: rgba(159, 83, 230, 0.726);
+    }
+
+    #texto{
+        font-size: large;
+        padding: 5%;
+    }
+
+    #saludo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: white;
+        background-size: cover;
+        border-bottom-right-radius: 100px;
+        border-bottom-left-radius: 100px;
+    }
+
+    #imagen{
+        width: 20%;
+    }
+}
+
