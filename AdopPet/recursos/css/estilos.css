@@ -1,0 +1,108 @@
+@media(max-width : 720px){
+    #body{
+        width: 100vw;
+        height: 100vh;
+        background-image: url("../images/background_login.jpg");
+        background-repeat: round;
+        background-attachment: fixed;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+
+    #logo{
+        display: none;
+    }
+    
+    header{
+        height: 100px;
+        text-align: center;
+        color: white;
+        font-size: x-large;
+        background: linear-gradient(blueviolet, #f7750bce);
+        DISPLAY: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #login{
+        background-color: #bb8a639c;
+        margin-top: 7%;
+        margin-left: 10%;
+        margin-right: 10%;
+        height: 70vh;
+        width: 80vw;
+        padding: 5%;
+        background-position: center;
+        background-repeat: round;
+        border-radius: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #loginForm{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+}
+
+@media(min-width : 721px){
+    #body{
+        width: 100vw;
+        height: 100vh;
+        text-align: -webkit-center;
+        background-image: url("../images/background1.jpg");
+        font-family:Arial, Helvetica, sans-serif;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    header{
+        height: 100px;
+        text-align: center;
+        color: white;
+        font-size: xx-large;
+        background: linear-gradient(blueviolet, #f7750bce);
+        DISPLAY: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 5%;
+    }
+
+    #logo{
+        position: absolute;
+        left: 20px;
+        width: 200px;
+        height: 200px;
+    }
+
+    #login{
+        background-color: #bb8a639c;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5%;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding: 10%;
+        height: 70vh;
+        width: 50vw;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 60px;
+    }
+
+    #loginForm{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+.btn-primary{
+    background-color: #f7750bce !important;
+}
