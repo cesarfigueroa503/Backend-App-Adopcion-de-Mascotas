@@ -13,7 +13,7 @@ from controlles.MascotaController import MascotaController
 app = Flask(__name__)
 CORS(app) 
 
-app.route('/', methods = [methods = ['GET']](UsuarioController.hola)
+app.route('/', methods = ['GET'])(UsuarioController.hola)
 
 #EndPoints Para usuarios
 app.route('/usuarios/crear', methods=['POST'])(UsuarioController.crear_usuario)
