@@ -13,7 +13,9 @@ def toJson(obj):
 
 
 class UsuarioController:
-
+    @staticmethod
+    def hola():
+        return "Hola Mundo"
     @staticmethod
     def crear_usuario():
 
