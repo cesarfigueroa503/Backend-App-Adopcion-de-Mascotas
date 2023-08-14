@@ -1,6 +1,6 @@
 from peewee import Model, PostgresqlDatabase
 
-db = PostgresqlDatabase('AdopPetdb', user = "cesar",  password = 'root', host = 'localhost', port = 5432)
+db = PostgresqlDatabase('proyecto', user = "postgres", host = '192.168.0.11', port = 5432)
 
 class BaseModel(Model):
     DB=db
